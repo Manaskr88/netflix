@@ -1,0 +1,187 @@
+
+
+.hero{
+    position: relative;
+
+
+}
+.bg{
+    width: 100%;
+    mask-image: linear-gradient(to right , transparent , black 75%);
+    --webkit-mask-image: linear-gradient(to right , transparent , black 75%);
+    
+
+}
+.caption{
+    position:absolute;
+    width: 100%;
+    padding-left: 4%;
+    bottom: 0;
+
+}
+
+.caption-img{
+
+    width: 320px;
+
+   
+
+
+}
+
+.caption p{
+    max-width: 700px;
+    font-size:15px;
+    margin-bottom: 20px;
+}
+
+.hero-btn{
+    display: flex;
+    gap:10px;
+    margin-bottom: 50px;
+
+
+
+}
+
+.btn img{
+    width: 25px;
+
+}
+
+.btn{
+    border: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap:10px;
+    font-size: 13px;
+    font-weight: 700;
+    background: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.dark-btn{
+    color:white;
+    background-color: #6d6d6eb3;
+
+}
+
+.btn:hover{
+    background: #ffffffbf;
+}
+
+.dark-btn:hover{background: #6d6d6eb3;
+
+}
+
+.more-cards{
+    padding-left: 4%;
+}
+
+@media (max-width:1000px) {
+
+    .caption .cards{
+        /* padding: 20px 3%; */
+        display: none;
+    }
+
+    .hero-btn{
+        margin-bottom: 30px;
+    }
+
+
+
+    
+    
+    
+}
+
+@media (max-width:700px) {
+
+    .caption{
+        padding-left: 3%;
+    }
+    .caption-img{
+        margin-bottom: 4%;
+        width: 40%;
+
+    }
+
+    .caption p {
+        font-size: 12px ;
+        margin-bottom: 10px;
+    }
+
+    .btn img{
+        width: 20px;
+    }
+
+    .more-cards{
+        padding-left: 4%;
+    }
+
+    
+
+    
+    
+}
+
+
+@media (max-width:700px) {
+
+    .hero .bg{
+        padding: auto;
+        margin-top: 70px;
+        /* width: 20px; */
+    }
+
+    .caption-img{
+        /* padding: auto; */
+        /* margin-top: 190px; */
+        width: 80px;
+
+
+    }
+    .caption p{
+        font-size: 11px;
+        /* margin-top: 10px; */
+    }
+}
+
+@media (max-width:400px) {
+
+    .hero .bg{
+        /* padding: auto; */
+        margin-top: 70px;
+        /* width: 20px; */
+    }
+
+    .caption p{
+        font-size: 8px;
+        /* margin-top: 10px; */
+    }
+
+    .caption-img{
+        /* padding: auto; */
+        /* margin-top: 190px; */
+        width: 50px;
+
+
+    }
+}
+@media (max-width:250px) {
+
+    
+
+    .caption-img{
+        /* padding: auto; */
+        /* margin-top: 190px; */
+        width: 50px;
+
+
+    }
+}
+
