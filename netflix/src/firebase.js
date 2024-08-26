@@ -1,4 +1,4 @@
-// Import the functions you need from the SDKs you need
+
 
 import { initializeApp } from "firebase/app";
 import {
@@ -12,7 +12,7 @@ import { toast } from "react-toastify";
 
 
 
-// TODO: Add SDKs for Firebase products that you want to use
+
 
 const firebaseConfig = {
   apiKey: "AIzaSyB33FrFKf_wgaooYG648yknGDHVlRM0XvE",
@@ -24,6 +24,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
+
 const app = initializeApp(firebaseConfig);
 
 const auth = getAuth(app);  // initialised authentication
