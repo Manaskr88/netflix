@@ -1,4 +1,4 @@
-Live link : https://manasflix.netlify.app/
+Live link : https://manasflixx.netlify.app/
                                                                                                                                         
 Crafted a cutting-edge, user-centric Netflix Clone web application leveraging React and Firebase, delivering a rich, immersive, and personalized video streaming experience that mirrors the original Netflix platform.
 
